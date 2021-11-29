@@ -1,0 +1,33 @@
+#wrapper{
+
+}
+
+
+
+.login_container{
+
+}
+@media(max-width: 990px){
+	.navbar-nav{
+		flex-direction:row;
+	}
+	.navbar-nav .nav-link{
+		padding-right: 1rem;
+	}
+}
+.login_section{
+	
+}
+.login_heading{
+	margin: auto;
+}
+.header_image{
+	
+}
+
+
+
+#footer{
+	padding: 2% 5%;
+	background-color: #eee;
+}

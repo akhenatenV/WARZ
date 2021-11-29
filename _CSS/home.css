@@ -1,0 +1,130 @@
+body{
+
+}
+h1, h2, h3, h4, h5, h6{
+
+}
+p{
+
+}
+a{
+	text-decoration: none;
+}
+#background_cover{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1000px;
+	background-color: rgba(10, 10, 10, 0.6);
+	z-index: 2;
+}
+
+#game_display{
+	display: none;
+	background-image: url(../_IMG/game_display2.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200px;
+}
+
+
+.center_image{
+	background-image: url(../_IMG/game_display_full_screen.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+	.current_mission_container{
+		width: 300px;
+		height: 100px;
+		background-color: #FFBF00;
+		color: #554000;
+		float: right;
+		border-radius: 0px 0px 10px 10px;
+	}
+	.current_assignment_container{
+		width: 300px;
+		height: 100px;
+		background-color: #D96D00;
+		color: #6A3500;
+		float: right;
+		border-radius: 0px 0px 10px 10px;
+	}
+
+.nav_panel_left{
+	background-color: #004040;
+	width: 100%;
+	height: 100%;
+}
+.nav_panel_right{
+	background-color: #004040;
+	width: 100%;
+	height: 100%;
+}
+@media(max-width: 991px){
+	#game_display{
+		display: inline-block;
+	}
+	.header_image{
+		display: none;
+	}
+	.nav_panel_right{
+		border-left: 2px solid #FFFFFF;
+	}
+	.nav_link{
+		font-size: 1.8rem;
+	}
+	.row{
+		--bs-gutter-x: .5rem;
+	}
+	.center_image{
+		display: none;
+	}
+	.current_mission_container{
+		width: 200px;
+		height: 80px;
+		background-color: #FFBF00;
+		color: #554000;
+		float: left;
+		border-radius: 0px 0px 10px 10px;
+	}
+	.current_assignment_container{
+		width: 200px;
+		height: 80px;
+		background-color: #D96D00;
+		color: #6A3500;
+		float: left;
+		border-radius: 0px 0px 10px 10px;
+	}
+}
+	.navbar_list_left{
+		list-style: none;
+		padding: 0;
+	}
+	.nav-item_header{
+		position: relative;
+		width: 100%;
+		background-color: #002D2D;
+		display: inline-block;
+		text-align: center;
+	}
+	.nav-item{
+
+	}
+	.nav_link_header{
+		font-size: 2rem;
+		color: #EEEEEE;
+		background-color: ;
+	}
+	.nav_link{
+		font-size: 0.8rem;
+		color: #FFFFFF;
+		padding-left: 0.4rem;
+	}
+
+
+
+
+
